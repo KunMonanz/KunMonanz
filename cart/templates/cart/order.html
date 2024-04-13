@@ -1,0 +1,26 @@
+{% extends "core/base.html" %}
+{% block title %}Order{% endblock title %}
+
+{% block content %}
+
+{% for cart_item in cart_items %}
+<h2 class="mb-8 text-2xl text-center text-gray-700 font-bold ">
+   {{ cart_item.quantity }} {{ cart_item.item.name }}  |  {{ cart_item.item.price}} each
+</h2>
+{% endfor %}
+<h2 class="mb-8 text-2xl text-center text-gray-700 font-bold ">Total Price: {{ total_price }}</h2>
+<hr>
+<br>
+<h2 class="mb-8 text-2xl text-center text-gray-700 font-bold ">Transfer to:</h2>
+<h2 class="mb-8 text-2xl text-center text-teal-700 font-bold ">9048839207</h2>
+<h2 class="mb-8 text-2xl text-center text-teal-700 font-bold ">OPAY</h2>
+<h2 class="mb-8 text-2xl text-center text-gray-700 font-bold ">AZEEZ FARUQ</h2>
+<br>
+<div class="text-center">
+<button type="submit" class="py-2 px-4 bg-teal-700 text-white font-bold rounded-lg">
+<a href="{% url "cart:create_order"  %}" >Go to order after transfer</a>
+</button>
+</div>
+
+
+{% endblock content %}

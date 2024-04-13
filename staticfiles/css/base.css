@@ -1,0 +1,6 @@
+.nav-active #menu-icon {
+    transform: rotate(90deg);
+}
+.nav-active #nav-links {
+    display: flex;
+}
