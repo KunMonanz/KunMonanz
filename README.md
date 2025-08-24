@@ -1,4 +1,4 @@
-# 👋 Hi, I'm KunMonanz!
+# 👋 Hi, I'm Somtochukwu Muonanu!
 
 Welcome to my GitHub profile! I'm passionate about building impactful software, sharing knowledge, and collaborating with the open-source community. Here you'll find my latest projects, experiments, and contributions, primarily in Python.
 
