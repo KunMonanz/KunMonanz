@@ -16,7 +16,7 @@ Welcome to my GitHub profile! I'm passionate about building impactful software, 
 
 - **Languages:** Python (main focus), Django, ML, some Java, plus any others I’m exploring.
 - **Tools:** Git, GitHub Actions, Docker, and more.
-- **Frameworks:** Django (favorite!), and always exploring more.
+- **Frameworks:** Django, FastAPI.
 
 ---
 
